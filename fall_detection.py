@@ -49,3 +49,6 @@ def main(option, method, thr, title):
   video.release()
   cv2.destroyAllWindows()
   return fall
+
+if __name__ == "__main__":
+  main(0, acceleration_thr, 100, "kill me")
